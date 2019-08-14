@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Maurisource_Setup",
+    "type": "magento-module",
+    "license": "ASL",
+    "homepage": "",
+    "description": "Maurisource Canada tax setup",
+    "authors": [
+    {
+        "name": "Manesh Sonah",
+        "email": "maurisource.seo@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

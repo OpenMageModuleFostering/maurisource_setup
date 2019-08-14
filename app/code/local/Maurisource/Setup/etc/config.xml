@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Maurisource_Setup>
+            <version>0.1.0</version>
+        </Maurisource_Setup>
+    </modules>
+    <global>
+        <models>
+            <maurisource_setup>
+                <class>Maurisource_Setup_Model</class>
+                <resourceModel>maurisource_setup_resource</resourceModel>
+            </maurisource_setup>
+            <maurisource_setup_resource>
+                <class>Maurisource_Setup_Model_Resource</class>
+            </maurisource_setup_resource>
+        </models>
+        <blocks>
+            <maurisource_setup>
+                <class>Maurisource_Setup_Block</class>
+            </maurisource_setup>
+        </blocks>
+        <helpers>
+            <maurisource_setup>
+                <class>Maurisource_Setup_Helper</class>
+            </maurisource_setup>
+        </helpers>
+        <resources>
+            <maurisource_setup_setup>
+                <setup>
+                    <module>Maurisource_Setup</module>
+                </setup>
+            </maurisource_setup_setup>
+        </resources>
+    </global>
+</config>

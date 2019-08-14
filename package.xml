@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Maurisource_Setup</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>ASL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Maurisource Canada tax setup</summary>
+    <description>Maurisource Canada tax setup</description>
+    <notes>Maurisource Canada tax setup</notes>
+    <authors><author><name>Manesh Sonah</name><user>maneso</user><email>maurisource.seo@gmail.com</email></author></authors>
+    <date>2015-12-03</date>
+    <time>18:50:06</time>
+    <contents><target name="magelocal"><dir name="Maurisource"><dir name="Setup"><dir name="Helper"><file name="Data.php" hash="05556ee3e8030420720df1fb029cb25a"/></dir><dir name="etc"><file name="config.xml" hash="6ece1ae30e0333cf11d1975c4cc024a5"/></dir><dir name="sql"><dir name="maurisource_setup_setup"><file name="install-0.1.0.php" hash="38ae4ac81cd2f940cc2184f376abe840"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Maurisource_Setup.xml" hash="7410c75441af290ef878b90befbe57f3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>5.7.0</max></php></required></dependencies>
+</package>
